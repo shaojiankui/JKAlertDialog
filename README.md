@@ -1,0 +1,2 @@
+# JKAlertDialog
+AlertDialog,类似Android中的AlertDialog,可以指定任意的View显示在Alert弹出框中
