@@ -29,6 +29,9 @@
     
     [alert addButton:Button_OTHER withTitle:@"取消" handler:^(JKAlertDialogItem *item) {
         NSLog(@"click %@",item.title);
+        UIViewController *view = [[UIViewController alloc]init];
+        view.view.backgroundColor = [UIColor redColor];
+        [self.navigationController pushViewController:view animated:YES];
     }];;
     [alert addButton:Button_OTHER withTitle:@"ok" handler:^(JKAlertDialogItem *item) {
         NSLog(@"click %@",item.title);
@@ -116,6 +119,5 @@
     
     
 }
-
 
 @end
