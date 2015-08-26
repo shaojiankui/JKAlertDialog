@@ -149,7 +149,7 @@
     }
     [_items enumerateObjectsUsingBlock:^(JKAlertDialogItem *item, NSUInteger idx, BOOL *stop) {
         UIButton *button = [UIButton buttonWithType:UIButtonTypeSystem];
-        button.translatesAutoresizingMaskIntoConstraints = NO;
+//        button.translatesAutoresizingMaskIntoConstraints = NO;
         button.frame = CGRectMake(idx*width, 1, width, MenuHeight);
         //seperator
         button.backgroundColor = [UIColor whiteColor];
